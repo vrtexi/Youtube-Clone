@@ -27,6 +27,19 @@ font-weight: 400;
 margin-bottom: 4px;
 }
 
+@media (min-width: 1000px) {
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .video-owner,
+  .video-stats {
+    font-size: 6px;
+  }
+}
 .video-info-grid{
 display: grid;
 grid-template-columns: 50px 1fr;
