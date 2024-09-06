@@ -33,13 +33,6 @@ margin-bottom: 4px;
   }
 }
 
-@media (min-width: 1000px) {
-  .video-owner,
-  .video-stats {
-    font-size: 14px;
-  }
-}
-
 .video-info-grid{
 display: grid;
 grid-template-columns: 50px 1fr;
